@@ -9,14 +9,14 @@ function App() {
   }
   return (
     <div className="App">
-  
-      <button onClick={() =>{
-        rollDice();
-      }}>
+      <h1>Dice: {dice}</h1>
+      <button
+        onClick={() => {
+          rollDice();
+        }}
+      >
         Roll the dice
       </button>
-      
-      <h1>Dice: {dice}</h1>
     </div>
   );
 }
