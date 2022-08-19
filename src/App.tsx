@@ -4,6 +4,7 @@ import "./App.css";
 function App() {
   const [dice, setDice] = useState(0);
   const [diceCount, setDiceCount] = useState(0);
+  // const [player, setPlayer] = useState(true);
   function rollDice() {
     setDice(Math.floor(Math.random() * 6) + 1);
   }
